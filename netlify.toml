@@ -1,0 +1,4 @@
+# Minimal Netlify configuration for static site
+[build]
+publish = "."
+# No build command needed for pure HTML/CSS sites
