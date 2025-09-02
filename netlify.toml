@@ -1,4 +1,7 @@
-# Minimal Netlify configuration for static site
 [build]
+command = "npm run build"
 publish = "."
-# No build command needed for pure HTML/CSS sites
+
+# For Node.js/Express, use Netlify's Node adapter
+[functions]
+directory = "netlify/functions"
