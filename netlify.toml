@@ -1,7 +1,9 @@
 [build]
-command = "npm run build"
+command = "npm install"
 publish = "."
 
-# For Node.js/Express, use Netlify's Node adapter
 [functions]
 directory = "netlify/functions"
+
+[build.environment]
+NODE_VERSION = "14.17.0"
