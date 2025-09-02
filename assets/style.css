@@ -1,1 +1,15 @@
-body{font-family:system-ui,sans-serif; background:#0b0d11; color:#ebf0f7; margin:0;}
+body{
+	font-family:system-ui,sans-serif;
+	margin:0;
+	color:#ebf0f7;
+	min-height:100vh;
+	background: linear-gradient(120deg, #800020 0%, #ff6f00 100%);
+	background-size: 200% 200%;
+	animation: bgmove 8s ease-in-out infinite;
+}
+
+@keyframes bgmove {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "intelligoose",
+  "version": "1.0.0",
+  "description": "Palagent official website with animated background and Netlify form integration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
